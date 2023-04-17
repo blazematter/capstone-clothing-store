@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+h1{
+  font-family:Lucida Handwriting ;
+  font-size: 110px;
+}
+body{
+  background-image: url("/Images/swagtastic.jpg");
+}
+
+.blingblingboy {
+  padding-bottom: 25px;
+}
+
+.d-grid {
+  display: flex;
+  justify-content: center;
+}
