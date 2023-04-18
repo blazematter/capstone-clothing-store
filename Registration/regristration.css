@@ -1,3 +1,4 @@
+
 form {
     display: flex;
     flex-direction: column;
@@ -23,7 +24,6 @@ input[type="radio"] {
 }
 
 input[type="submit"] {
-
    
     font-weight: bold;
     cursor: pointer;
