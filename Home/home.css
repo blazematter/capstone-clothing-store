@@ -18,9 +18,3 @@ body{
   padding-bottom: 25px;
 }
 
-.d-grid {
-  display: flex;
-  justify-content: center;
-  gap: 2;
-  max-width: auto;
-}

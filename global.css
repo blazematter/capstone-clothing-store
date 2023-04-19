@@ -1,8 +1,16 @@
 h1{
-    
+    font-family:Lucida Handwriting ;
+        font-size: 150%;
+        font-size: 110px;
     color: aliceblue;
 }
 body{
     background-image: url("/Images/swagtastic.jpg");
     color: aliceblue;
+}
+
+.nav-item{
+    margin-left: 200px;
+    margin-right: 200px;
+   
 }
