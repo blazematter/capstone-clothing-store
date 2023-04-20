@@ -24,17 +24,17 @@
 	<form action="/Login/index.html">
 		<div>
 			<label for="username">Username:</label>
-			<input type="text" id="username" name="username" placeholder="Enter your user name" required>
+			<input type="text" id="username" name="username" minlength="8" placeholder="Enter your user name" required>
 		</div>
 
 		<div>
 			<label for="password">Password:</label>
-			<input type="password" id="password" name="password" placeholder="Enter your password" required>
+			<input type="password" id="password" name="password" minlength="8" placeholder="Enter your password" required>
 		</div>
 
 		<div>
 			<label for="confirm_password">Confirm Password:</label>
-			<input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required>
+			<input type="password" id="confirm_password" name="confirm_password" minlength="8" placeholder="Confirm your password" required>
 		</div>
 
 		<div>
@@ -42,7 +42,7 @@
 			<input type="email" id="email" name="email" placeholder="Enter your email address" required>
 		</div>
 
-		<fieldset>
+		<fieldset id="textbox">
 			<legend>How did you hear about us?</legend>
 			<label for="radio1">
 				<input type="radio" id="radio1" name="how_did_you_hear" value="From a friend/family member">From a friend/family member

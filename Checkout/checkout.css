@@ -1,2 +1,36 @@
-
-
+body {
+    background-color: rgb(193, 203, 211);
+  }
+  
+  h2 {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  h3 {
+    margin-top: 30px;
+    font-size: 24px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: blue;
+    color: aliceblue;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+  }
