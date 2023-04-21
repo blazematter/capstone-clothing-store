@@ -16,12 +16,12 @@ body{
 }
 
 h1{
-    padding: 0 0 20px 0;
+    padding:20px;
     border-bottom: 1px solid;
 }
 
 .center form{
-    padding: 0 40px;
+    padding:40px;
     box-sizing: border-box;
 
 }
@@ -34,7 +34,7 @@ form .txt_field{
 
 .txt_field input{
     width: 100%;
-    padding: 0 5px;
+    padding:5px;
     height: 40px;
     font-size: 16px;
 
@@ -51,7 +51,7 @@ input[type="submit"]{
 }
 
 .signup_link{
-    margin: 30px 0;
+    margin: 30px;
     text-align: center;
 }
 
